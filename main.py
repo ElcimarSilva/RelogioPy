@@ -1,6 +1,7 @@
 from tkinter import *
 import datetime
 
+
 def infos_no_print():
     data_public = datetime.datetime.now()
     data_public_str = data_public.strftime("%m/%d/%Y %H:%M:%S")
